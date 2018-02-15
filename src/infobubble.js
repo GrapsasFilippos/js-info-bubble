@@ -93,6 +93,7 @@ function InfoBubble(opt_options) {
   if (options['closeSrc'] == undefined) {
     options['closeSrc'] = this.CLOSE_SRC_;
   }
+  this.set('closeSrc', options['closeSrc']);
 
   this.buildDom_();
   this.setValues(options);
